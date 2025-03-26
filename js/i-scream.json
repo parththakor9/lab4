@@ -3,51 +3,25 @@
     "headOffice": "North Pole",
     "established": 2025,
     "active": true,
-    "topFlavors": [
-        {
+    "topFlavors": [{
             "name": "Chocolate Mint",
             "calories": 240,
             "type": "ice-cream",
-            "ingredients": [
-                "Chocolate Syrup",
-                "Peppermint Sprinkle",
-                "Vanilla Base"
-            ],
+            "ingredients": ["Chocolate Syrup", "Peppermint Sprinkle", "Vanilla Base"],
             "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/chocolate-mint.svg"
-        },
-        {
+        }, {
             "name": "Peach Mango",
             "calories": 285,
             "type": "milkshake-type ice-cream",
-            "ingredients": [
-                "Peach Syrup",
-                "Mango Chunks",
-                "Vanilla Base"
-            ],
+            "ingredients": ["Peach Syrup", "Mango Chunks", "Vanilla Base"],
             "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/peach-mango.svg"
         },
         {
             "name": "Strawberry Sprinkle",
             "calories": 300,
             "type": "ice-cream",
-            "ingredients": [
-                "Chocolate Syrup",
-                "Strawberry Chunks",
-                "Vanilla Base",
-                "Sprinkles"
-            ],
+            "ingredients": ["Chocolate Syrup", "Strawberry Chunks", "Vanilla Base", "Sprinkles"],
             "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/strawberry-sprinkle.svg"
-        },
-        {
-            "name": "Vanilla Dream",
-            "calories": 210,
-            "type": "ice-cream",
-            "ingredients": [
-                "Vanilla Extract",
-                "Sugar",
-                "Cream"
-            ],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/ice-cream-xtra1.svg"
         }
     ]
 }
