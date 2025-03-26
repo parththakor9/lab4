@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* Global Styles */
+body {
+  font-family: sans-serif;
+  font-size: 150%;
+  line-height: 1.4;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; /* Added box-sizing for consistent sizing */
+}
+
+/* Header Styles */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0; /* Ensured no margin */
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5rem; /* Added margin-top for spacing */
+}
+
+/* Section Styles */
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+section article {
+  border: 1px solid black;
+  box-shadow: 0 2px 14px grey;
+  padding: 2.5%;
+  width: 25%;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  margin-bottom: 1.5rem; /* Added margin for spacing between articles */
+}
+
+article img {
+  display: block;
+  height: 150px;
+  width: 90px;
+  object-fit: cover; /* Ensures image maintains its aspect ratio and doesn't stretch */
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+  padding-left: 20px; /* Added padding for list */
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold; /* Added bold for better hierarchy */
+}
+
+/* Additional Styles for Responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 120%;
+  }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section article {
+    width: 90%; /* Stacks articles in mobile view */
+    margin-bottom: 2rem; /* Adds spacing for stacked layout */
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
